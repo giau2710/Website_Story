@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="css.css">
+
+<script src="script.js">
+
+</script>
+
+<body>
+    <div class="contener" id="div">
+        <table id="tbStory">
+            <tr style="background-color: rgb(60, 218, 120);">
+                <button>
+                    <th id="trangchu" onclick="reset()">TRANG CHỦ</th>
+                </button>
+                <th onchange="truyencoVN()">
+                    <label> TRUYỆN CỔ VIỆT NAM</label>
+                    <select id="cotichVN">
+                        <option align="center" value="chon">-chọn-</option>
+                        <option value="ctlv">Cổ Tích Loài Vật</option>
+                        <option value="cttk">Cổ Tích Thần Kỳ</option>
+                        <option value="cttt">Cổ Tích Thế Tục</option>
+                    </select>
+                </th>
+                <th onchange="truyencoTG()">
+                    <label>CỔ TÍCH THẾ GIỚI</label>
+                    <select id="cotichTG">
+                        <option align="center" value="chon">-chọn-</option>
+                        <option value="tcg">Truyện Cổ Grimm</option>
+                        <option value="tca">Truyện Cổ Andersen</option>
+                        <option value="tthl">Thần Thoại Hy Lạp</option>
+                    </select>
+                </th>
+                <th onchange="truyenngungon()">
+                    TRUYỆN NGỤ NGÔN
+                    <select name="" id="fables">
+                        <option value="chon">-Chọn-</option>
+                        <option value="truyenngungon">Click vào đây</option>
+                    </select>
+                </th>
+                <th onchange="truyencuoi()">
+
+                    TRUYỆN CƯỜI
+                    <select name="" id="jokes">
+                        <option value="chon">-Chon-</option>
+                        <option value="truyencuoi">Click vào đây</option>
+                    </select>
+                </th>
+        </table>
+
+        <h3>TRUYỆN HOT</h3>
+
+        <button onclick="backbtn()">↺</button>
+
+        <table class="hotStory" id="liststory">
+            <tr>
+                <td><img src="picture/su-tich-hoa-mao-ga.png" alt=""></td>
+                <td><img src="picture/su-tich-chim-go-song.jpg" alt=""></td>
+                <td><img src="picture/su-tich-con-thach-sung.jpg" alt=""></td>
+                <td><img src="picture/su-tich-con-ve-sau.jpg"></td>
+            </tr>
+            <tr>
+                <th>Sự tích hoa Mào gà</th>
+                <th>Sự Tích Chim Gò Sóng</th>
+                <th>Sự tích con Thạch Sùng</th>
+                <th>Sự tích con Ve Sầu</th>
+            </tr>
+
+            <tr>
+                <td><img src="picture/an-khe-tra-vang.jpg" alt=""></td>
+                <td><img src="picture/nang-tien-oc.jpg" alt=""></td>
+                <td><img src="picture/chu-dong-tu-va-cong-chua-tien-dung.jpg" alt=""></td>
+                <td><img src="picture/a_472133079_vay-ma-chang-ai-o-nha-ca.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <th>Ăn Khế trả vàng</th>
+                <th>Nàng Tiên Óc</th>
+                <th>Chử Đồng Tử và công chúa Tiên Dung</th>
+                <th>Vậy mà chẳng ai ở nhà cả</th>
+            </tr>
+            <tr>
+                <td><img src="picture/su-tich-trau-cau.jpeg" alt=""></td>
+                <td><img src="picture/su-tich-cay-khe.jpg" alt=""></td>
+                <td><img src="picture/ai-mua-hanh-toi.jpg" alt=""></td>
+                <td><img src="picture/a_2144765488_chuyen-o-lop-hoc.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <th>Sự tích Trầu cau</th>
+                <th>Sự tích cây khế</th>
+                <th>Ai mua hành giùm tôi</th>
+                <th>Chuyện ở lớp học</th>
+            </tr>
+            <tr>
+                <td><img src="picture/a_2144765488_chuyen-o-lop-hoc.jpg" alt=""></td>
+                <td><img src="picture/a_472133079_vay-ma-chang-ai-o-nha-ca.jpg" alt=""></td>
+                <td><img src="picture/a_492032468_noi-chuyen-voi-troi.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <th>Chuyện ở lớp học</th>
+                <th>Vậy mà chẳng ai ở nhà cả</th>
+                <th>Nói chuyện với trời</th>
+                <th></th>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

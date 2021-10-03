@@ -1,0 +1,31 @@
+.contener{
+    margin: 0 auto;
+    border: 1px black solid;
+    width: 1200px;
+    height: 250vh;
+    background-color: rgb(218, 231, 240);
+}
+img {
+    margin-left: 5px;
+    width: 290px;
+    height: 290px;
+}
+
+th {
+    padding-right: 50px;
+    text-align: center;
+}
+
+th {
+    font-family: "Roboto Bold";
+    font-weight: 700px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #222222;
+}
+h3 {
+    color: crimson;
+}
+button {
+    font-size: 25px;
+}
