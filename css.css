@@ -2,8 +2,9 @@
     margin: 0 auto;
     border: 1px black solid;
     width: 1200px;
-    height: 250vh;
+    height: 210vh;
     background-color: rgb(218, 231, 240);
+    border-radius: 4px;
 }
 img {
     margin-left: 5px;
@@ -28,4 +29,13 @@ h3 {
 }
 button {
     font-size: 25px;
+}
+img:hover{
+    transform: scale(1.1);
+    filter:  brightness(100%) blur(0px);
+}
+img{
+    transition: all 0.5s;
+    border-radius: 6px;
+    filter:  brightness(65%) blur(1px);
 }
