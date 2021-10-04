@@ -94,7 +94,7 @@ function showstory(index) {
     document.getElementById("liststory").innerHTML = `<embed src="Story/cobelolem.pdf" width="1200" height="800s" type="application/pdf";->`
   }
   if (index == 1 && cotichtg == "tca") {
-    document.getElementById("liststory").innerHTML = `<embed src="Story/sutichconthanma.pdf" width="1200" height="800s" type="application/pdf";->`
+    document.getElementById("liststory").innerHTML = `<embed src="Story/conthanma.pdf" width="1200" height="800s" type="application/pdf";->`
   }
   if (index == 1 && cotichtg == "tthl") {
     document.getElementById("liststory").innerHTML = `<embed src="Story/poseidonvaapollo.pdf" width="1200" height="800s" type="application/pdf";->`
