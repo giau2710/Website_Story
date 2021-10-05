@@ -37,9 +37,8 @@ let imagetruyengngungon = [
   "picture/a_1386328371_taiongthatma.jpeg",
   "picture/a_2144139678_nai-va-cho-soi.jpg"
 ]
-
+// Hàm hiển thị truyện cổ tích Việt Nam
 function truyencoVN() {
-
   document.getElementById("cotichTG").value = "chon";
   document.getElementById('jokes').value = "chon";
   document.getElementById("fables").value = "chon";
@@ -52,6 +51,7 @@ function truyencoVN() {
     showstorylist(imagett)
   }
 }
+// Hàm hiển thị truyện cổ tích thế giới
 function truyencoTG() {
   document.getElementById('cotichVN').value = "chon";
   document.getElementById('jokes').value = "chon";
@@ -65,6 +65,7 @@ function truyencoTG() {
     showstorylist(imagehl)
   }
 }
+// hiển thị danh sách truyện
 function showstorylist(arr) {
 
   let liststory = "<tr>"
@@ -76,6 +77,7 @@ function showstorylist(arr) {
   document.getElementById("liststory").innerHTML = liststory;
 
 }
+// hàm hiển thị mẫu truyện
 function showstory(index) {
   let cotichvn = document.getElementById("cotichVN").value;
   let truyencuoi = document.getElementById("jokes").value;
@@ -151,6 +153,7 @@ function showstory(index) {
     document.getElementById("liststory").innerHTML = `<embed src="Story/sutichconvesau.pdf" width="1200" height="800s" type="application/pdf";->`
   }
 }
+// hàm trở về hàm hiển thị mẫu truyện
 function backbtn() {
   if (document.getElementById("cotichVN").value == 'ctlv') {
     showstorylist(imagelv);
@@ -177,15 +180,18 @@ function backbtn() {
     showstorylist(imagehl);
   }
 }
+// hàm trở về ban đầu
 function reset() {
   location.reload();
 }
+ // Hàm hiển thị truyện cười
 function truyencuoi() {
   document.getElementById("cotichVN").value = "chon";
   document.getElementById("fables").value = "chon";
   document.getElementById("cotichTG").value = "chon";
   showstorylist(imagetruyencuoi);
 }
+// Hàm hiển thị truyện ngụ ngôn
 function truyenngungon() {
   document.getElementById('cotichVN').value = "chon";
   document.getElementById('jokes').value = "chon";
